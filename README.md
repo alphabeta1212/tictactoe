@@ -1,19 +1,14 @@
 # rust tic-tac-toe
-![Screenshot](./img/screenshot.png)
+![Screenshot](./img/tictactoe.png)
 ## DISCLAMER
-I just started learning rust so the code should not be used as a example of 
-good practice. This is is my first rust project, so if you have any suggestions
-on how to improve the code feel free to write an issue. Maybe one day this code 
-will become a showcase.
+Thanks to Flofriday for providing with the scaffolding of the tictactoe game. Check out his work [here](https://github.com/flofriday/tictactoe/releases).
+I have added an enemy AI player which is truly undefeatable. It can either tie or win(if you make mistakes).
+Tictactoe is small game with limited possibilities, hence the strategies can be hardcoded. 
 
-## Install
-Go to the [latest release](https://github.com/flofriday/tictactoe/releases) and install the right binary for your system.
-
-
-On Windows and macOS your computer might warn you because the binaries are not
-singed. Feel free to ignore those warnings.
+## Future Goals
+Would like to implement backtracking algorithm for the AI, to reduce code.
 
 ## Build
-1. [Download](https://github.com/flofriday/tictactoe/archive/master.zip) the .zip or clone the project with git
+1. Clone the project with git or Download.
 2. [Install rust](https://www.rust-lang.org/en-US/install.html), if you have not already
 3. Run `cargo run --release`
